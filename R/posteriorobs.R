@@ -31,7 +31,7 @@ posteriorobs <- function(Sigma0inv,sigma,muprior,Xtilda,tobs,YI) {
 	Q = (3/sigma^2)*Q;
 
 # Calculate the estimated posterior mean and covariance
-	Sigmahat = inv(Sigma0inv+Q); 
+	Sigmahat = solve(Sigma0inv+Q); 
 	muhatMatrix = c(); 
 
 	for (k in 1:N) {

@@ -49,7 +49,7 @@ new.growth <- function(newdata,newtobs,sigma,d,muhatcurve,Khat,tgrid) {
 	muhatcurveaver = apply(muhatcurve,2,mean);
 	muhatcurveaverind = muhatcurveaver[index];
 
-	sigma0invnew = inv(Khatind);
+	sigma0invnew = solve(Khatind);
 	mupriornew = muhatcurveaverind;
 
 	r = posteriorobs(sigma0invnew,sigma,mupriornew,Xtildanew,newtobs,YInew); 

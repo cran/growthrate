@@ -1,13 +1,13 @@
-30ed566081773ae8627d2e4f3a53f92c *DESCRIPTION
+619d83925734eb82832401b6e4bd1f1f *DESCRIPTION
 d32239bcb673463ab874e80d47fae504 *LICENSE
 bde809f8d9c40a62e3b8805ef321589f *NAMESPACE
 beb46b358c0da88f74084afef2275211 *R/Khatf.R
 9cf9a1dc43bc5b9014db7bab2af4e321 *R/cv.growth.R
 293cda38963451d3d9e07b77f21362af *R/diffquo.R
 48b85c6c00735b0e4882e83697262936 *R/growth.R
-f503b68d3619e959d64423cab0e0c243 *R/new.growth.R
+18b6b47f79109dfac83b8dfd7b7d3edf *R/new.growth.R
 dab70ceb4bbd572169981293402a0fee *R/posteriordistribcurve.R
-3ceb1dd1743b8dd893d01e8e8c7a3032 *R/posteriorobs.R
+156b8b198c5c0f3e28e0963ea4f64d7f *R/posteriorobs.R
 51de590cc14086b7448d7288b7bae505 *R/priormeanobs.R
 15df771fcf7b63ebbdd6d5d0944a2631 *data/height_data.rda
 2f3ddbd656e9cbe994630292b9626d24 *man/Khatf.Rd
