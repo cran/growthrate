@@ -1,4 +1,4 @@
-619d83925734eb82832401b6e4bd1f1f *DESCRIPTION
+f3a3b5f76277f5d79c921ef28f5b50ab *DESCRIPTION
 d32239bcb673463ab874e80d47fae504 *LICENSE
 bde809f8d9c40a62e3b8805ef321589f *NAMESPACE
 beb46b358c0da88f74084afef2275211 *R/Khatf.R
@@ -11,12 +11,12 @@ dab70ceb4bbd572169981293402a0fee *R/posteriordistribcurve.R
 51de590cc14086b7448d7288b7bae505 *R/priormeanobs.R
 15df771fcf7b63ebbdd6d5d0944a2631 *data/height_data.rda
 2f3ddbd656e9cbe994630292b9626d24 *man/Khatf.Rd
-445f139c83e064a155b07e471c0035fa *man/cv.growth.Rd
+2a2b9fd850ab90f41ab7579aeaa488e9 *man/cv.growth.Rd
 dc2808079f1656d1627a0d372bb4d325 *man/diffquo.Rd
-3a1ddb3fcb817ade97144f3b66061b91 *man/growth.Rd
+bc90522ee5c2ba467922dc1dab0e1a99 *man/growth.Rd
 21c0311c8c6cfe58fe8e069fca9ee97a *man/growthrate-package.Rd
 14540fdbde1e5480fec8e7e0c98b6bf1 *man/height_data.Rd
-dacd0dbde3c055e9ca462aa49820661f *man/new.growth.Rd
+6eb0ff2b7d2832770a6457624a11a725 *man/new.growth.Rd
 de3dcc0a0546ac1649316ed324d3f4a7 *man/posteriordistribcurve.Rd
 f12539f033c6fb1600ac7349b74a72d6 *man/posteriorobs.Rd
 be27d9adf66509c361908441ed0c6b6b *man/priormeanobs.Rd

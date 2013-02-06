@@ -25,7 +25,7 @@
 \details{
 	The Bayesian reconstruction implemented here uses a prior growth velocity model that is specified by a general multivariate normal distribution at the n fixed observation times, and a tied-down Brownian motion (having  infinitessimal standard deviation specified by \code{sigma}) between the observation times.
 
-	The prior mean and prior precision matrix at the observation times are estimated using the data on N subjects. Clime (constrained L1 minimization) provides the estimate of the prior precision matrix, with the clime constraint parameter lambda selected by 5-fold cross validation using the tracel2 loss function.
+	The prior mean and prior precision matrix at the observation times are estimated using the data on N subjects. Clime (constrained L1 minimization) provides the estimate of the prior precision matrix, with the clime constraint parameter lambda selected by 5-fold cross validation using the likelihood loss function.
 }
 \value{
 	\item{muhatcurve}{
@@ -46,9 +46,10 @@
 \author{
 	Sara Lopez-Pintado and Ian W. McKeague
 
-	Maintainer:  Yang Hu <mk.yanghu@gmail.com>
+	Maintainer:  Yang Hu <yyh2106@caa.columbia.edu>
 }
 \examples{
+\dontrun{
 ## example using the height data provided in the package
 ## there are 7 observation times (age in years):
 	data(height_data);
@@ -69,7 +70,9 @@
 
 ## Plot of a draw from the posterior growth velocity for a specific individual:
 	draw=rmvnorm(n=1, mean=g$muhatcurve[indiv,], sigma=g$Khat, method="chol");
-	plot(g$tgrid,draw,type='l',xlab="Age (years)",ylab="Growth velocity (cms/year)");
+	plot(g$tgrid,draw,type='l',xlab="Age (years)",ylab="Growth
+	velocity (cms/year)");
+}
 }
 \keyword{main program}
 

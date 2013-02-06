@@ -48,9 +48,10 @@
 \author{
 	Sara Lopez-Pintado and Ian W. McKeague
 
-	Maintainer:  Yang Hu <mk.yanghu@gmail.com>
+	Maintainer:  Yang Hu <yyh2106@caa.columbia.edu>
 }
 \examples{
+\dontrun{
 ## example using the height data provided in the package 
 ##    (after first running growth to obtain the output g):
 ## suppose a new subject has 5 observation times (including 0 and 7)
@@ -65,6 +66,8 @@
 	ng=new.growth(newdata,newtobs,sigma,d,g$muhatcurve,g$Khat,g$tgrid);
 
 ## plot of the posterior mean growth velocity for the new subject:
-	plot(g$tgrid,ng$muhatcurvenew,xlab="Age (years)",ylab="Growth velocity (cms/year)");
+	plot(g$tgrid,ng$muhatcurvenew,xlab="Age (years)",ylab="Growth
+	velocity (cms/year)");
+}
 }
 

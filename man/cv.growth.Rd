@@ -51,9 +51,10 @@
 \author{
 	Sara Lopez-Pintado and Ian W. McKeague
 
-	Maintainer:  Yang Hu <mk.yanghu@gmail.com>
+	Maintainer:  Yang Hu <yyh2106@caa.columbia.edu>
 }
 \examples{
+\dontrun{
     ## example using the height data provided in the package
     ## there are 7 observation times (age in years):
     ## WARNING: cv.growth is time-consuming. This example uses only part of the data.
@@ -67,5 +68,6 @@
 
     ## Value of sigma that minimizes the cross validation error:
     sigmaopt=cvg$sigmavec[which(cvg$CVer==min(cvg$CVer))]; 	
+}
 }
 
