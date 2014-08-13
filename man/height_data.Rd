@@ -14,8 +14,9 @@
 	A matrix with 532 observations on 7 variables (height at each age).
 }
 \references{
-	Lopez-Pintado, S. and McKeague, I. W. (2011).
-	\emph{Recovering gradients from sparsely observed functional data.}  Preprint, submitted to \emph{Biometrics}.
+	Lopez-Pintado, S. and McKeague, I. W. (2013).
+	\emph{Recovering gradients from sparsely observed functional
+	  data.} Biometrics 69, 396-404 (2013).
 	http://www.columbia.edu/~im2131/ps/growthrate-package-reference.pdf
 }
 \examples{
